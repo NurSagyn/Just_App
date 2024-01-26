@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="178.37dp"
+        android:src="@drawable/ic_start_first_appslide"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="246dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="88dp"
+        android:text="Explore the world easily"
+        android:textSize="36sp"
+        android:fontFamily="@font/montserrat_700"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="29dp"
+        android:text="To your desire"
+        android:textSize="24sp"
+        android:fontFamily="@font/montserrat_300"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="613dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="6dp"
+        android:src="@drawable/ic_first_page_view"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="700dp"
+        tools:ignore="MissingConstraints"/>
+    
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="6dp"
+        android:src="@drawable/ic_second_page_view"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="700dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="6dp"
+        android:src="@drawable/ic_second_page_view"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="700dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_next"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="678dp"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

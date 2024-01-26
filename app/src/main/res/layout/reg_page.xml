@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="321dp"
+        android:layout_height="251dp"
+        android:src="@drawable/ic_reg_welcome"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:layout_width="182dp"
+        android:layout_height="29dp"
+        android:text="Welcome back"
+        android:textSize="24sp"
+        android:fontFamily="@font/montserrat_500"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="180dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="17dp"
+        android:text="sign in to access your account"
+        android:textSize="14sp"
+        android:fontFamily="@font/montserrat_300"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="213dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
